@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #f1c40f;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    font-size: 14px;
+  }
+  .folder {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    width: 300px;
+    cursor: pointer;
+  }
+  .folder > span {
+    margin: 0 5px 2px 5px;
+  }
+  .file {
+    margin-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .folder > div > button {
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .inputContainer > span {
+    margin-top: 5px;
+  }
+  
+  .inputContainer__input {
+    margin: 6px 0 0px 0;
+    padding: 5px;
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
